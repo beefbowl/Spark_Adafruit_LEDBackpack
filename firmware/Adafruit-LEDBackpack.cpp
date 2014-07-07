@@ -17,13 +17,13 @@
   Written by Limor Fried/Ladyada for Adafruit Industries.  
   BSD license, all text above must be included in any redistribution
  ****************************************************/
-
+/*
 #if (ARDUINO >= 100)
  #include "Arduino.h"
 #else
  #include "WProgram.h"
 #endif
-/*
+
 #ifdef __AVR_ATtiny85__
  #include <TinyWireM.h>
 #else
