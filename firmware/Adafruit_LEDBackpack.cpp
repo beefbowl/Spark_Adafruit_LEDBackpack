@@ -28,7 +28,7 @@
 */
 
 #include "Adafruit_LEDBackpack.h"
-#include "Adafruit_GFX.h"
+#include "Adafruit_GFX/Adafruit_GFX.h"
 
 static const uint8_t numbertable[] = { 
 	0x3F, /* 0 */
