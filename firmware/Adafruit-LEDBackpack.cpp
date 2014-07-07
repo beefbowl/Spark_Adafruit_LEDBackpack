@@ -29,8 +29,9 @@
 #else
  #include <Wire.h>
 #endif
-#include "Adafruit_GFX.h"
 */
+#include "Adafruit_GFX.h"
+
 #define LED_ON 1
 #define LED_OFF 0
 
