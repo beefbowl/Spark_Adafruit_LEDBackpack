@@ -17,15 +17,17 @@
   Written by Limor Fried/Ladyada for Adafruit Industries.  
   BSD license, all text above must be included in any redistribution
  ****************************************************/
-
+/*
 #ifdef __AVR_ATtiny85__
  #include <TinyWireM.h>
  #define Wire TinyWireM
 #else
  #include <Wire.h>
 #endif
+*/
 #include "Adafruit_LEDBackpack.h"
 #include "Adafruit_GFX.h"
+
 
 static const uint8_t numbertable[] = { 
 	0x3F, /* 0 */
